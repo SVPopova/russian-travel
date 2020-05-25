@@ -1,0 +1,30 @@
+.lead__map{
+  position: absolute;
+  top: 14.037%;
+  left: 2.366%;
+  max-width: 883.76px;
+  max-height: 248.02px;
+} 
+@media (min-width: 1280px){
+  .lead__map{
+    top: 14.075%;
+    max-width: 937.09px;
+    max-height: 262.99px;
+  } 
+}
+@media (max-width: 768px){
+  .lead__map{
+    top: 11.552%;
+    left: 1.94%;
+    max-width: 731.38px;
+    max-height: 205.26px;
+  } 
+}
+@media (max-width: 320px){
+  .lead__map{
+    top: 12.26%;
+    left: 2.37%;
+    max-width: 304.74px;
+    max-height: 85.53px;
+  } 
+}

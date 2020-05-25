@@ -1,0 +1,12 @@
+.place__paragraphs{
+  grid-column: 2;
+  grid-row: 2; 
+}
+@media (max-width: 320px){
+  .place__paragraphs{
+    width: 288px;
+    margin: 0 auto;
+    grid-column: 1;
+    grid-row: 3;
+}
+}

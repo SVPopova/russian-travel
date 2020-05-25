@@ -1,0 +1,22 @@
+.lead__container{
+  position: relative;
+  max-width: 928px;
+  margin: 56px 0 0 0;
+} 
+@media (min-width: 1280px){
+  .lead__container{
+    max-width: 984px;
+    margin: 64px 0 0 0;
+  } 
+}
+@media (max-width: 768px){
+  .lead__container{
+    max-width: 768px;
+  } 
+}
+@media (max-width: 320px){
+  .lead__container{
+    max-width: 320px;
+    margin: 40px 0 0 0;
+  } 
+}

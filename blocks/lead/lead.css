@@ -1,0 +1,13 @@
+@import url(../lead/__caption/lead__caption.css);
+@import url(../lead/__container/lead__container.css);
+@import url(../lead/__img/lead__img.css);
+@import url(../lead/__subtitle/lead__subtitle.css);
+@import url(../lead/__title/lead__title.css);
+@import url(../lead/__map/lead__map.css);
+.lead{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
