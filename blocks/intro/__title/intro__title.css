@@ -1,6 +1,6 @@
 .intro__title{
   max-width: 690px;
-  margin: 114px 0 0 4.688%;
+  margin: 114px 0 0 calc((100% - 928px)/2);
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -10,7 +10,8 @@
 }
 @media (min-width: 1280px){
   .intro__title{
-    margin: 114px 0 0 11.563%;
+    margin: 114px 0 0 calc((100% - 984px)/2);
+
   }
 }
 @media (max-width: 768px){

@@ -6,10 +6,13 @@
   color: #FFFFFF;
   margin: 0 0 0 6px;
   text-decoration: none;
+  transition: opacity 2s linear;
+}
+.header__lang-link:hover{
+  opacity: .8;
 }
 .header__lang-link:first-child{
   margin-right: 31.2%;
-  border-bottom: 2px #FFFFFF solid;
 }
 @media (min-width: 1280px){
   .header__lang-link{

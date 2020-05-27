@@ -7,10 +7,11 @@
   align-items: center;
   margin: 0 auto;
   text-decoration: none;
-  background-color: rgba(42, 44, 47, 0.3);;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 2s linear;
 }
 .cover__overlay:hover{
-  background-color: rgba(42, 44, 47, 0.8);;
+  background-color: rgba(42, 44, 47, 0.8);
 }
 @media (min-width: 1280px){
   .cover__overlay{
